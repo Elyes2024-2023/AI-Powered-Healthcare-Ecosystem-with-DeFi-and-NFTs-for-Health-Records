@@ -13,43 +13,42 @@ A comprehensive healthcare platform that integrates AI-powered diagnosis, DeFi-p
 
 ## Prerequisites
 
-1. PHP 8.1 or higher
-2. Composer (PHP package manager)
-3. Node.js and npm
-4. MySQL/PostgreSQL
-5. MetaMask wallet
-6. Python 3.8+ (for AI services)
-7. Go 1.16+ (for blockchain services)
-8. Rust (latest stable version)
+- PHP 8.1 or higher
+- Composer (PHP package manager)
+- Node.js and npm
+- MySQL/PostgreSQL
+- MetaMask wallet
+- Python 3.8+ (for AI services)
+- Go 1.16+ (for blockchain services)
+- Rust (latest stable version)
 
 ## Installation
 
 ### 1. Install Composer
-
-Windows:
-1. Download the Composer installer from https://getcomposer.org/download/
-2. Run the installer and follow the installation wizard
-3. Verify installation by running: `composer --version`
+**Windows:**
+- Download the Composer installer from https://getcomposer.org/download/
+- Run the installer and follow the installation wizard
+- Verify installation by running: `composer --version`
 
 ### 2. Install PHP
-
-Windows:
-1. Download PHP from https://windows.php.net/download/
-2. Extract to C:\php
-3. Add PHP to system PATH
-4. Copy php.ini-development to php.ini
-5. Enable required extensions in php.ini:
-   - extension=openssl
-   - extension=pdo_mysql
-   - extension=mbstring
-   - extension=fileinfo
-   - extension=gd
+**Windows:**
+- Download PHP from https://windows.php.net/download/
+- Extract to C:\php
+- Add PHP to system PATH
+- Copy php.ini-development to php.ini
+- Enable required extensions in php.ini:
+  ```
+  extension=openssl
+  extension=pdo_mysql
+  extension=mbstring
+  extension=fileinfo
+  extension=gd
+  ```
 
 ### 3. Project Setup
-
 ```bash
 # Clone the repository
-git clone [repository-url]
+git clone https://github.com/Elyes2024-2023/AI-Powered-Healthcare-Ecosystem-with-DeFi-and-NFTs-for-Health-Records.git
 
 # Install Laravel dependencies
 composer install
@@ -71,21 +70,31 @@ php artisan serve
 ```
 
 ## Project Structure
-
 ```
 healthcare-ecosystem/
 ├── laravel/              # User-facing backend (Laravel)
-│   └── ...
-├── symfony/              # AI & Blockchain backend (Symfony)
-│   └── ...
+│   ├── app/             # Application code
+│   ├── config/          # Configuration files
+│   ├── database/        # Database migrations and seeds
+│   ├── resources/       # Views and assets
+│   └── routes/          # Route definitions
+├── symfony/             # AI & Blockchain backend (Symfony)
+│   ├── src/             # Source code
+│   ├── config/          # Configuration files
+│   └── tests/           # Test files
 ├── frontend/            # React.js frontend
-│   └── ...
+│   ├── src/             # Source code
+│   ├── public/          # Public assets
+│   └── package.json     # Dependencies
 ├── contracts/           # Ethereum smart contracts
-│   └── ...
+│   ├── HealthRecordNFT.sol
+│   └── InsurancePolicy.sol
 ├── ai-services/         # Python AI services
-│   └── ...
+│   ├── models/          # AI models
+│   └── api/             # API endpoints
 └── blockchain-services/ # Go blockchain services
-    └── ...
+    ├── cmd/             # Command line tools
+    └── internal/        # Internal packages
 ```
 
 ## Contributing
@@ -94,4 +103,18 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details 
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Author
+
+**ELYES**
+- GitHub: [@Elyes2024-2023](https://github.com/Elyes2024-2023)
+- Email: [Your Email]
+
+## Copyright
+
+Copyright (c) 2024-2025 ELYES. All rights reserved.
+
+---
+
+*Done by ELYES* 
