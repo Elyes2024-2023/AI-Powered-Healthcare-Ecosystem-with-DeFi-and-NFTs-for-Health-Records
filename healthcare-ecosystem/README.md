@@ -61,4 +61,4 @@ For support, please contact the development team.
 
 ---
 
-*Done by ELYES* 
+*© 2024-2025 ELYES. All rights reserved.* 

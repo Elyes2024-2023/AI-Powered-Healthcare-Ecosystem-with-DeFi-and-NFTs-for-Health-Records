@@ -22,4 +22,4 @@ SOFTWARE.
 
 ---
 
-*Done by ELYES* 
+*© 2024-2025 ELYES. All rights reserved.* 

@@ -47,4 +47,4 @@ This document was adapted from the open-source contribution guidelines for [Face
 
 ---
 
-*Done by ELYES* 
+*© 2024-2025 ELYES. All rights reserved.* 
